@@ -1,13 +1,13 @@
 body {
   background-image: url("./tictactoe.jpg");
 }
-
+  
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
 }
-
+  
 .box {
   width: auto;
   height: 100px;
@@ -17,13 +17,8 @@ body {
   color: blue;
   background-color: black;
 }
-
+  
 .icon {
   font-size: 35px;
   color: #ffffff;
 }
-
-.box:hover {
-  background: url("https://media.giphy.com/media/65AUEdOC8cyNW/giphy.gif")
-}
-

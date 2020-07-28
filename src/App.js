@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from './logo.svg';
 import Icon from "./components/Icon";
+import "./App.css";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -136,3 +137,9 @@ const App = () => {
 };
 
 export default App;
+
+/*
+You have to install: npm install react-icons reactstrap react-toastify bootstarp
+In the given project, code for draw and hover 
+was not given. I did it as assignment
+*/
